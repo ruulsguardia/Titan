@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #CCC;
+}
+/* Card Body */
+.card {
+    width: 270px;
+    height: 306px;
+    background: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* Card Header */
+.card .card-header {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+}
+.card .card-header .card-titule {
+    width: 210px;
+    float: left;
+    color: #FFCD00;
+    float: left;
+    font-weight: 700;
+}
+.card .card-header .btn-hearth {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #3C3C3B;
+    box-sizing: border-box;
+}
+.card .card-header .btn-hearth:hover {
+    color: #FFCD00;
+}
+/* Card Image */
+.card .card-picture {
+    width: 100%;
+    height: 150px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card .card-picture .btn-picture img {
+    height: 100%;
+}
+/* Card Stars */
+.card .card-stars {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.card .card-stars .fa-star {
+    color: #3C3C3B;
+}
+.card .card-stars .active {
+    color: #FFCD00;
+}
+/* Card Prices */
+.card .card-price {
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.card .card-price .price-now {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: end;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #3C3C3B;
+}
+.card .card-price .price-before {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-decoration:line-through;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #3C3C3B;
+}
+/* Card Description */
+.card .card-description {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.card .card-description .description-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #3C3C3B;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+/* Card Button */
+.card .card-button {
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card .card-button .buy-button {
+    width: 100px;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1px solid #FFCD00;
+}
+.card .card-button .buy-button:hover {
+    background: #FFCD00;
+}
+.card .card-button .buy-button .button-titule {
+    font-size: 14px;
+    color: #3C3C3B;
+}
+.card .card-button .buy-button .button-titule:hover {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}

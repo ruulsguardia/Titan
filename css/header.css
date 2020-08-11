@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+header {
+    width: 100%;
+    height: 190px;
+    background: #3C3C3B;
+    text-align: center;
+}
+/* Header - first.head */
+header .first-head {
+    height: 50px;
+    background: #FFF;
+    padding: 50px 100px 20px 100px;
+}
+header .first-head .logo {
+    height: 90%;
+    width: 415px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+header .first-head .search-bar {
+    height: 100%;
+    width: 600px;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+header .first-head .search-bar .border-search-bar {
+    height: 40px;
+    width: 558px;
+    border: 2px solid #FFCD00;
+    border-radius: 20px;
+    box-sizing: border-box; 
+    margin: 5px 0px;
+}
+header .first-head .search-bar .border-search-bar .btn-search {
+    height: 36px;
+    width: 80px;
+    font-size: 28px;
+    box-sizing: border-box;
+    padding: 2px 0px;
+    color: #FFCD00;
+    float: left;
+}
+header .first-head .search-bar .border-search-bar input {
+    height: 36px;
+    width: 450px;
+    float: left;
+    font-size: 18px;
+    border: none;
+}
+header .first-head .search-bar .border-search-bar input:focus {
+    outline: none;
+}
+header .first-head .empty-space-01 {
+    height: 50px;
+    width: 145px;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+header .first-head .contact {
+    height: 50px;
+    width: 125px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0px;
+    border-bottom: 3px solid rgba(255,255,255,0);
+}
+header .first-head .account {
+    height: 50px;
+    width: 165px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-bottom: 3px solid rgba(255,255,255,0);
+}
+header .first-head .shopping-cart {
+    height: 50px;
+    width: 125px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0px;
+    border-bottom: 3px solid rgba(255,255,255,0);
+}
+header .img-logo,
+header .img-contact,
+header .img-account,
+header .img-cart-shopping {
+    margin: auto;
+    height: 100%;
+}
+header ul li {
+    list-style:none;
+}
+header .first-head .contact:hover,
+header .first-head .account:hover,
+header .first-head .shopping-cart:hover {
+    border-radius: 0px;
+    border-bottom: 3px solid #FFCD00;
+}
+/* Header - second.head */
+header .second-head {
+    height: 30px;
+    padding: 20px 100px;
+}
+header .second-head .categories {
+    height: 30px;
+    width: 415px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+}
+header .second-head .navigation-bar {
+    height: 30px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+header .second-head .navigation-bar .navigation-button-01,
+header .second-head .navigation-bar .navigation-button-02,
+header .second-head .navigation-bar .navigation-button-03, 
+header .second-head .navigation-bar .navigation-button-04 {
+    height: 30px;
+    width: 125px;
+    box-sizing: border-box;
+    float: left;
+    padding: 2px;
+    margin: 0 10px;
+}
+header .second-head .navigation-bar .navigation-button-01:hover,
+header .second-head .navigation-bar .navigation-button-02:hover,
+header .second-head .navigation-bar .navigation-button-03:hover, 
+header .second-head .navigation-bar .navigation-button-04:hover {
+    border: 1px solid #FFCD00;
+    border-radius: 20px;
+}
+header .second-head .navigation-bar .active {
+    background: #FFCD00;
+    border-radius: 20px;
+}
+header .second-head .empty-space-02 {
+    height: 30px;
+    width: 145px;
+    float: left;
+    box-sizing: border-box;
+}
+header .second-head .welcome {
+    height: 30px;
+    width: 290px;
+    float: left;
+    box-sizing: border-box;
+    padding: 2px;
+}
+header .second-head .help {
+    height: 30px;
+    width: 125px;
+    float: left;
+    box-sizing: border-box;
+    padding: 2px;
+}
+header .second-head .help:hover {
+    border: 1px solid #FFCD00;
+    border-radius: 20px;
+}
+header .second-head .empty-space-04 {
+    height: 30px;
+    width: 145px;
+    border: 1px solid #FFF;
+    float: left;
+    box-sizing: border-box;
+}
+header .second-head a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
